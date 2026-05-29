@@ -1,2 +1,24 @@
 // Zde piš své styly
 
+.header {
+background: lightblue;
+}
+
+.footer {
+background: lightgreen;
+}
+
+.main {
+display: flex;
+}
+
+.sidebar {
+    width: 200px;
+background: lightpink;
+flex-shrink: 0;
+}
+
+.content {
+    flex-grow: 1;
+background: lightseagreen;
+}
