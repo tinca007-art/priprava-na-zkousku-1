@@ -1,2 +1,19 @@
 // Zde piš své styly
 
+@mixin fancytitle {
+&::after {
+content: "";
+display: block;
+width: 80px;
+height: 5px;
+background: red;
+}
+}
+
+
+.title {
+    @include fancytitle;
+font-family: sans-serif;
+font-size: 40px;
+color: blue;
+}
